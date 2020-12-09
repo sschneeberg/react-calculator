@@ -1,7 +1,9 @@
 .calculator {
     margin: 0 auto;
-    width: 30vw;
-    background-color: lightblue;
+    margin-top: 50px;
+    border-radius: 12px;
+    width: 25vw;
+    background-color: rgb(49, 76, 117);
     padding: 10px 10px 20px 10px;
     display: flex;
     flex-direction: column;
@@ -11,16 +13,30 @@
 
 .add {
     display: grid;
-    width: 25vw;
+    width: 20vw;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 0.5rem;
 }
 
 h3 {
-    width: 25vw;
+    width: 20vw;
     border: 1px solid black;
+    background-color: whitesmoke;
+    padding: 10px 0 10px 0;
+    border-radius: 20px;
 }
 
 button {
     border: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 60%;
+}
+
+button.equals {
+    border-radius: 20px;
+    background-color: rgb(224, 181, 116);
+}
+
+button.operator {
+    background-color: rgb(224, 181, 116);
 }

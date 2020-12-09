@@ -139,6 +139,7 @@ class Calculator extends Component {
                         x
                     </button>
                     <button
+                        className="equals"
                         style={{ gridColumn: '1/ span 2' }}
                         onClick={(e) => {
                             this.computeAnswer(e);
