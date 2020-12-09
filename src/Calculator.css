@@ -1,0 +1,26 @@
+.calculator {
+    margin: 0 auto;
+    width: 30vw;
+    background-color: lightblue;
+    padding: 10px 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add {
+    display: grid;
+    width: 25vw;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+h3 {
+    width: 25vw;
+    border: 1px solid black;
+}
+
+button {
+    border: none;
+}
